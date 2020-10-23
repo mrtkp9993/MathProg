@@ -3,6 +3,15 @@
 section
 variables (p q r s : Prop)
 
+theorem modus_ponens :
+    ∀ p q, (p -> q) -> p -> q :=
+begin
+    intros p q,
+    intros hp hq,
+    apply hp,
+    apply hq
+end
+
 theorem modus_tollens :
     ∀ p q, (p -> q) -> ¬q -> ¬p :=
     sorry
