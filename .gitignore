@@ -251,3 +251,4 @@ dmypy.json
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/vscode,intellij+all,python,jupyternotebooks
+Dafny/bin/
